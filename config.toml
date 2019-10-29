@@ -1,0 +1,134 @@
+baseurl = "/"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+DefaultContentLanguage = "en"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "License Message" # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpored = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Harshit Joshi"
+  description = "Tech Professional"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = ""
+
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by Harshit Joshi"
+  keywords = "homepage, blog, software, cloud, development, programming, coding, machine learning, ML, AI"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+  themeColor = "#252627"
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = ""
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = []
+  customJS  = []
+  
+
+[languages]
+  [languages.en]
+    title = "Harshit Joshi"
+    subtitle = "Portfolio And Blogs"
+    keywords = ""
+    copyright = ""
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "~/home"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    # Social icons
+  [[languages.en.params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/BahadurBrahmin"
+
+  [[languages.en.params.social]]
+    name = "email"
+    url  = "mailto:hpj1992@gmail.com"
+
+  [[languages.en.params.social]]
+    name = "github"
+    url  = "https://github.com/hpj1992"
+
+  [[languages.en.params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/harshitjoshi1/"
+
+  [[languages.en.params.social]]
+    name = "stackoverflow"
+    url  = "https://stackoverflow.com/users/2254097/harshit"
+
+	# You can create a language based menu
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "Blogs"
+        url = "/posts"
+
+# And you can even create generic menu
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
