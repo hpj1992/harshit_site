@@ -11,8 +11,11 @@ Hi, I'm Harshit Joshi - Software Engineer based in California, USA. I have 4+ ye
 #### Book Recommendations
 - [The Clean Coder: A Code of Conduct for Professional Programmers - Robert Martin](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/013708107)
 
-#### Interests
+#### Interests(In no particular order)
 
 - Deep Learning
 - AI
-- Motorcyles
+- Leadership
+- Software Development
+- Operational Excellence
+- Design Patterns

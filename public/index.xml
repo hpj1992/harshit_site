@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Harshit Joshi</title>
+    <link>/</link>
+    <description>Recent content on Harshit Joshi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal Website 101</title>
+      <link>/posts/2019/11/personal-website-101/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/11/personal-website-101/</guid>
+      <description>Motivation There is no need to explain the benefits of personal website or a porfolio site, still, I would note down some:
+ Personal Branding Blog Space Makes you discoverable on internet One stop resume which works for you Helps you learn new skills while building  Tech Stack  Hugo Static Site Builder Plenty of themplates available at Hugo Themes Hosting at Github Pages Domain from Godaddy  Steps  First learn the basics of Hugo and how it works by following Hugo Quickstart Guide Once somewhat comfortable with Markdown and Hugo, choose a template/theme for your site You can create your custom theme as well.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hi, I&amp;rsquo;m Harshit Joshi - Software Engineer based in California, USA. I have 4+ years of professional experience and currently working at Amazon Alexa.
+Book Recommendations  The Clean Coder: A Code of Conduct for Professional Programmers - Robert Martin  Interests(In no particular order)  Deep Learning AI Leadership Software Development Operational Excellence Design Patterns  </description>
+    </item>
+    
+  </channel>
+</rss>
