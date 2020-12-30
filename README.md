@@ -14,6 +14,22 @@
 - Both sub modules are configured at [.gitmodules](https://github.com/hpj1992/harshit_site/blob/master/.gitmodules)
 - [Portfolio](https://github.com/hpj1992/Portfolio) repository is of no use. Make no changes to it.
 
+#### Fresh Start / New Machine Setup
+- Follow this section only if you are setting up website locally on new machine
+- If you already have website locally, do not follow next steps.
+- `mkdir new_directory`
+- `cd new_directory`
+- `git clone https://github.com/hpj1992/harshit_site.git` 
+- `cd harshit_site`
+- `hugo` - this will build site locally
+- `hugo server` - local hugo server is running. 
+- Visit localhost:<port> to access site
+- Make sure to update your git config, otherwise it will use git user mentioned at `~/.gitconfig`
+- To use hpj1992 github user, run follow commands
+- At the root of `harshit_site`
+- `git config user.name "hpj1992"`
+- `git config user.email hpj1992@gmail.com`
+
 #### Make changes to website
 Any new changes (new blogs, about me update etc) should follow below procedure.
 - Make changes locally in `harshit_site` 
