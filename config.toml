@@ -101,9 +101,9 @@ disableHugoGeneratorInject = false
     name = "twitter"
     url  = "https://twitter.com/BahadurBrahmin"
 
-  #[[languages.en.params.social]]
-  #  name = "email"
-  #  url  = "mailto:hpj1992@gmail.com"
+  [[languages.en.params.social]]
+    name = "email"
+    url  = "mailto:hpj1992@gmail.com"
 
   [[languages.en.params.social]]
     name = "github"
