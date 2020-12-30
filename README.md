@@ -20,7 +20,7 @@ Any new changes (new blogs, about me update etc) should follow below procedure.
 - `hugo` - this will build site locally
 - `hugo server` - this will start hugo server. Once running successfully, verify changes locally
 - At this point you have uncommited changes ready to deploy
-- from root of `harshit_site`, execute `./deploy.sh "{commit-message}"`  - This will deploy your new changes at [hpj1992.github.io](https://github.com/hpj1992/hpj1992.github.io)
+- From root of `harshit_site`, execute `./deploy.sh "{commit-message}"`  - This will deploy your new changes at [hpj1992.github.io](https://github.com/hpj1992/hpj1992.github.io)
 - Note `./deploy.sh` will not make any changes to `harshit_site` repository.
 - To verify above changes, hit http://hpj1992.github.io/ -> this will redirect you to http://joshiharshit.com/ 
 - You will not see your new changes yet - make sure to hit refresh or visit it on incognito mode to see new changes
@@ -34,3 +34,26 @@ Any new changes (new blogs, about me update etc) should follow below procedure.
 - Done.
 
 TODO: Update `./deploy.sh` to push changes to both repository
+
+#### Update theme
+- Theme used in static site is from [hello-friend-ng](https://github.com/rhazdon/hugo-theme-hello-friend-ng)
+- As of 29th Dec 2020, theme is most up to date with last commit in Oct 2020.
+- For any future changes follow below steps:
+- stay at the root of `harshit_site` 
+- `cd themes/hello-friend-ng`
+- `git pull` - if this does not pull latest, [follow this stackoverflow post](https://stackoverflow.com/questions/5828324/update-git-submodule-to-latest-commit-on-origin)
+- This will bring all the changes from these repo master branch. (Note: Make sure `master` is not broken)
+- `hugo` - this will build your static site locally
+- `hugo sever` - verify site locally and make sure new theme updates are not breaking your site
+- From root of `harshit_site`, execute `./deploy.sh "{commit-message}"`  - This will deploy your new changes at [hpj1992.github.io](https://github.com/hpj1992/hpj1992.github.io)
+- Note `./deploy.sh` will not make any changes to `harshit_site` repository.
+- To verify above changes, hit http://hpj1992.github.io/ -> this will redirect you to http://joshiharshit.com/ 
+- You will not see your new changes yet - make sure to hit refresh or visit it on incognito mode to see new changes
+- New changes should reflect now
+- At this point you are done, but it is important to push these new changes to [harshit_site](https://github.com/hpj1992/harshit_site) as well. Otherwise, you can lose your local changes and harshit_site includes changes till second last commit, not the latest one.
+- It is critical to keep [hpj1992.github.io](https://github.com/hpj1992/hpj1992.github.io) and [harshit_site](https://github.com/hpj1992/harshit_site) at same commits
+- To achieve that, stay at root level of `harshit_site`
+- `git add .` 
+- `git commit -m "{commit-message}"`
+- `git push` 
+- Done.
