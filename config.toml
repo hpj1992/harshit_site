@@ -7,7 +7,7 @@ DefaultContentLanguage = "en"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
-rssLimit  = 10  # Maximum number of items in the RSS feed.
+rssLimit  = 15  # Maximum number of items in the RSS feed.
 copyright = "License Message" # This message is only used by the RSS template.
 
 # googleAnalytics = ""
