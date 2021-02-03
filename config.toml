@@ -117,6 +117,11 @@ disableHugoGeneratorInject = false
     name = "stackoverflow"
     url  = "https://stackoverflow.com/users/2254097/harshit"
 
+  [[languages.en.params.social]]
+    name = "medium"
+    url  = "https://joshiharshit.medium.com/"
+    
+
 	# You can create a language based menu
     [languages.en.menu]
       [[languages.en.menu.main]]
