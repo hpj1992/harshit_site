@@ -9,7 +9,7 @@ aliases = ["about-us","about-me","contact"]
 Hi, I'm Harshit Joshi - Software Engineer based in California, USA. I have 4+ years of professional experience and currently working at Amazon Alexa.
 
 #### Book Recommendations
-- [The Clean Coder: A Code of Conduct for Professional Programmers - Robert Martin](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/013708107)
+- [The Clean Coder: A Code of Conduct for Professional Programmers - Robert Martin](https://www.amazon.com/dp/0137081073/ref=cm_sw_em_r_mt_dp_40RD8RQ0KB2XD4A5BFHM)
 
 #### Interests (In no particular order)
 
