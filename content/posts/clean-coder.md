@@ -1,7 +1,7 @@
 ---
 author:
   name: "Harshit Joshi"
-date: 2019-11-03
+date: 2021-02-15
 linktitle: Professional Programmer - The Clean Coder
 type:
 - post
