@@ -45,10 +45,10 @@ If you do not have time to read detailed summary below, just try to apply below 
 ## Let's Understand More
 
 ### Professionalism 
-Professionals take responsibilities. You can not take pride and honor in something that you can not be held accountable for. Take responsibility to complete the clean code on time, and if not possible, take responsibility to communicate early. Shipping incomplete/faulty code/build is bound to fail. Any code you are not certain about is a faulty code. Only way to avoid it is to test, test and test. QA should find nothing. And if it is hard to test, refactor/rewrite. They key thing is to keep your hands dirty in code all the time. The more changes you make, the more you know the code, the more you test and the better estimates. Repeat this cycle all the time.
+Professionals take responsibilities. You can not take pride and honor in something that you can not be held accountable for. Take responsibility to complete the clean code on time, and if not possible, take responsibility to communicate early. Shipping incomplete/faulty code/build is bound to fail. Any code you are not certain about is a faulty code. Only way to avoid it is to test, test and retest. QA should find nothing. And if it is hard to test, refactor/rewrite. They key thing is to keep your hands dirty in code all the time. The more changes you make, the more you know the code. The more you test, the better you estimate. Repeat this cycle all the time.
 
 ### Saying NO
-When your manager tells you that X module has to be ready by tomorrow, he is pursuing and defending one of his objectives. He is doing his job. If you know full well that getting model X by tomorrow is impossible, then you are not doing your job if you say "Ok, I will try. I might work extra hours". The only way to do your job, at that point, is to say "No, that is impossible." Your manager is counting on your to defend your objectives as aggressively as he defends his. That is how the two of you are going to get to the best possible outcome. 
+When your manager tells you that X module has to be ready by tomorrow, he is pursuing and defending one of his objectives. He is doing his job. If you know well that getting X by tomorrow is impossible, then you are not doing your job if you say *"Ok, I will try. I might work extra hours"*. The only way to do your job, at that point, is to say *"No, that is impossible."* Your manager is counting on your to defend your objectives as aggressively as he defends his. That is how the two of you are going to get to the best possible outcome. 
 
 ~~~~
 The most important time to say no is when the stakes are highest. The higher the stakes, the more valuable no becomes.
@@ -66,7 +66,7 @@ You can only commit to things that you have full control of. If the end goal dep
 that case, it is time to change the expectations, as soon as possible. If you can not make your commitment, the most important thing is to raise a red flag as soon as possible to stake holders.
 
 ### Coding
-Programing is hard. The younger you are the less you believe this. After all, it is just a bunch of `if` and `while` statements. But as you gain experience you begin to realize that the way you combine those `if` and `while` statements is critically important. You can't just slather them together and hope fo the best. Rather, you have to carefully partition the system into small understandable units that have as little to do with each other as possible - and *that is hard*.
+Programing is hard. The younger you are the less you believe this. After all, it is just a bunch of `if` and `while` statements. But as you gain experience you begin to realize that the way you combine those `if` and `while` statements is critically important. You can't just slather them together and hope for the best. Rather, you have to carefully partition the system into small understandable units that have as little to do with each other as possible - and *that is hard*.
 
 Software development is a marathon, not a sprint. You can't win the race by trying to run as fast as you can from the outset. You win by conserving your resources and pacing yourself. A marathon runner takes care of her body both before and during the race. Professional programmers conserve their energy and creativity with the same care. Coding is an intellectually challenging and exhausting activity. It requires you to balance:
 - First, your code must work.
@@ -74,7 +74,7 @@ Software development is a marathon, not a sprint. You can't win the race by tryi
 - Your code must fit well into existing system. It should not increase the rigidity, fragility, or opacity of that system.
 - Your code must be readable by other programmers.
 
-Juggling all above concerns is hard. It is physiologically difficult to maintain the required concentration and focus for long periods of time. If you are tired or distracted, *do not code*. Some of the best advices are:
+Juggling all above concerns is hard. It is physiologically difficult to maintain the required concentration and focus for long period of time. If you are tired or distracted, *do not code*. Some of the best advices are:
 - Make sure that your sleep, health and lifestyle are tunes so that you can put in eight good hours per day.
 - Non work related worries affect your work. Partition the time. Rather than forcing yourself to code while the background worry is nagging you, spend dedicated block of time, handling the worry.
 - Like me, many engineers love [the flow zone](https://en.wikipedia.org/wiki/Flow_(psychology)). Reality is, you lose some of the big picture while you are in the Zone, so you will likely make decisions that you will later have to go back and reverse.
@@ -91,7 +91,7 @@ Even after following all best practices mentioned above, we might fall short whi
 ### TDD - Test Driven Development
 I personally have not used TDD in a professional environment, however after reading this chapter of a book I can not wait to use it professionally.
 
-The unit tests are documents The describe the lowest level design of the system. They are unambiguous, accurate, written in a language that audience understands.The problem with testing code is that you have to isolate that code. It is often difficult to test a function if that function calls other functions. In other words, the need to test first forces you to think about good design.
+The unit tests are documents they describe the lowest level design of the system. They are unambiguous, accurate, written in a language that audience understands.The problem with testing code is that you have to isolate that code. It is often difficult to test a function if that function calls other functions. In other words, the need to test first forces you to think about good design.
 
 The three laws of TDD
 - You are not allowed to write any production code until you have first written a failing unit test
@@ -108,7 +108,7 @@ There are various ways developer can keep practicing, weekly/monthly sessions to
 In one way or another, all professionals practice. They do this because they care about doing the best job they possibly can. They practice on their own time because it is their responsibility - and not their employer's - to keep their skills sharp.
 
 ### Acceptance Testing
-Both business and programmers are tempted to fall into the trap of *premature precision*. Business people want to know exactly what they are going to get before they authorize a project. Developers wan to know exactly what they are supposed to deliver before they estimate the project. Both sides want a precision that simply can not be achieved, and are often willing to waste a fortune trying to attain it. The solution to premature precision is to defer precision as long as possible. Professional developers do not flesh out a requirement until they are just about to develop it. However, it can lead to another problem: *late ambiguity*. Late ambiguity is a term which represents some requirements missed or discovered late in the development cycle. This type of late ambiguity can result into missing dates or delivering imperfect product. Solution to both those problems is to define **Acceptance Tests**. Acceptance tests are not QA tests, these are tests written by a collaboration of the stakeholders and the programmers in order to define when a requirement is done.
+Both business and programmers are tempted to fall into the trap of *premature precision*. Business people want to know exactly what they are going to get before they authorize a project. Developers want to know exactly what they are supposed to deliver before they estimate the project. Both sides want a precision that simply can not be achieved, and are often willing to waste a fortune trying to attain it. The solution to premature precision is to defer precision as long as possible. Professional developers do not flesh out a requirement until they are just about to develop it. However, it can lead to another problem: *late ambiguity*. Late ambiguity is a term which represents some requirements missed or discovered late in the development cycle. This type of late ambiguity can result into missing dates or delivering imperfect product. Solution to both those problems is to define **Acceptance Tests**. Acceptance tests are not QA tests, these are tests written by a collaboration of the stakeholders and the programmers in order to define when a requirement is done.
 
 Purpose of acceptance test is communication, clarity, and precision. By agreeing to them, the developers, stakeholders, and tests all understand what the plan for the system behavior is.
 
@@ -152,14 +152,12 @@ One of the worst symptoms of a dysfunctional team is when each programmer builds
 ### Teams And Projects
 Teams are harder to build than projects. Therefore, it is better to form persistent teams that move together from one project to the next and can take on more than one project at a time. the goal in forming a team is to give that team enough time to gel, and the keep it together as an engine for getting many projects done.
 
-Professional development organization allocate projects to existing gelled teams, the do not form teams around projects. A gelled team can accept many projects simultaneously and will distribute the work according to their own opinions, skills and abilities.
+Professional development organization allocate projects to existing gelled teams, they do not form teams around projects. A gelled team can accept many projects simultaneously and will distribute the work according to their own opinions, skills and abilities.
 
 ### Craftsmanship
 
 School can teach the theory of computer programming, but school does not and can not teach the discipline, practice, and skill of being craftsman. A craftsman is someone who works quickly, but without rushing, who provides reasonable estimates and meets commitments. A craftsman knows when to say no, but tries hard to say yes. A craftsman is a professional.
 
-Craftsmanship is the mindset held by craftsman. It is handed from one person to another. It is taught by elders to the young. It is exchanged between peers. Observed and learned. You can not convince people to be craftsman. You act as a role model. You become a craftsman first, and let your craftsmanship show.
-
-Reinforcing my learning, was refreshing to document the book insights here.
+Craftsmanship is the mindset held by craftsman. It is handed from one person to another. It is taught by elders to the young. It is exchanged between peers. Observed and learned. You can not convince people to be craftsman. You act as a role model. You become a craftsman first and let your craftsmanship show.
 
 Thank you.
