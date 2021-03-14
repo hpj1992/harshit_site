@@ -120,6 +120,10 @@ disableHugoGeneratorInject = false
   [[languages.en.params.social]]
     name = "medium"
     url  = "https://joshiharshit.medium.com/"
+
+  [[languages.en.params.social]]
+    name = "unsplash"
+    url  = "https://unsplash.com/@hpj1992"  
     
 
 	# You can create a language based menu
