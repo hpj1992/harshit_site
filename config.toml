@@ -118,6 +118,10 @@ disableHugoGeneratorInject = false
     url  = "https://stackoverflow.com/users/2254097/harshit"
 
   [[languages.en.params.social]]
+    name = "dev"
+    url  = "https://dev.to/hpj1992"  
+
+  [[languages.en.params.social]]
     name = "medium"
     url  = "https://joshiharshit.medium.com/"
 
