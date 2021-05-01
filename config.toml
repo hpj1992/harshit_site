@@ -65,6 +65,22 @@ disableHugoGeneratorInject = false
   defaultTheme = "dark"
   themeColor = "#252627"
 
+  # Enable theme toggle
+  # 
+  # This options enables the theme toggle for the theme. 
+  # Per default, this option is off. 
+  # The theme is respecting the prefers-color-scheme of the operating systeme. 
+  # With this option on, the page user is able to set the scheme he wants. 
+  enableThemeToggle = true
+
+  # Sharing buttons
+  #
+  # There are a lot of buttons preconfigured. If you want to change them,
+  # generate the buttons here: https://sharingbuttons.io
+  # and add them into your own `layouts/partials/sharing-buttons.html`
+  #
+  enableSharingButtons = true
+
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
 
@@ -73,11 +89,14 @@ disableHugoGeneratorInject = false
   customCSS = []
   customJS  = []
   
-  # Custom footer 
-  # If you want, you can easily override the default footer with your own content. 
-  footerLeft = "A year from now, you will wish you had started today."
-  #footerRight = "&#10084; by <a href=\"https://t.co/Wor3sMJ3DQ?amp=1">A Reason To Stop Worrying About Anything</a>"
-  footerRight = "<a href=\"https://t.co/Wor3sMJ3DQ?amp=1\">A Reason To Stop Worrying &#10084;</a>"
+  [params.footer]
+    trademark = true
+    rss = true
+    copyright = false
+    author = true
+
+    topText = []
+    bottomText = ["A year from now, you will wish you had started today. </br><a href=\"https://t.co/Wor3sMJ3DQ?amp=1\">A Reason To Stop Worrying &#10084;</a>"]
 
 
 [languages]
@@ -97,9 +116,6 @@ disableHugoGeneratorInject = false
     # alt = "Your example logo alt text"
 
     # Social icons
-  [[languages.en.params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/BahadurBrahmin"
 
   [[languages.en.params.social]]
     name = "email"
