@@ -1,16 +1,13 @@
----
-author:
-  name: "Harshit Joshi"
-date: 2021-02-15
-linktitle: Professional Programmer - The Clean Coder
-type:
-- post
-- posts
-title: Professional Programmer - The Clean Coder
-weight: 10
-series:
-- Books
----
++++
+date = "2021-02-15"
+linktitle = "Professional Programmer - The Clean Coder"
+type = ["post", "posts"]
+title = "Professional Programmer - The Clean Coder"
+weight = "10"
+series = ["Books"]
+[ author ]
+  name = "Harshit Joshi"
++++
 
  In [The Clean Coder: A Code of Conduct for Professional Programmers](https://www.amazon.com/dp/0137081073/ref=cm_sw_em_r_mt_dp_40RD8RQ0KB2XD4A5BFHM), legendary software expert Robert C. Martin introduces the disciplines, techniques, tools, and practices of true software craftsmanship. This book is packed with practical advice–about everything from estimating and coding to refactoring and testing. It covers much more than technique: It is about attitude.
 

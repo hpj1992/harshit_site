@@ -1,6 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
+title = "Harshit Joshi"
 
 DefaultContentLanguage = "en"
 
@@ -36,23 +37,29 @@ disableHugoGeneratorInject = false
 [permalinks]
   posts = "/posts/:year/:month/:title/"
 
-[author]
-  name = "Harshit Joshi"
-  description = "Tech Professional"
+#[author]
+#  name = "Harshit Joshi"
+#  description = "Tech Professional"
 
 [blackfriday]
   hrefTargetBlank = true
 
 [taxonomies]
   tag      = "tags"
-  category = ""
+  category = "categories"
+  series   = "series"
 
 
 [params]
+
+  [params.author]
+    name = "Harshit Joshi"
+
+  homeSubtitle = "Harshit Joshi"
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+  dateformNumTime = "2006-01-02 15:04"
 
   # Metadata mostly used in document's head
   description = "Homepage and blog by Harshit Joshi"
@@ -90,14 +97,45 @@ disableHugoGeneratorInject = false
   customJS  = []
   
   [params.footer]
-    trademark = true
+    trademark = 2025
     rss = true
-    copyright = false
+    copyright = true
     author = true
 
     topText = []
     bottomText = ["A year from now, you will wish you had started today. </br><a href=\"https://t.co/Wor3sMJ3DQ?amp=1\">A Reason To Stop Worrying &#10084;</a>"]
 
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:hpj1992@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/hpj1992"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/harshitjoshi1/"
+
+  [[params.social]]
+    name = "stackoverflow"
+    url  = "https://stackoverflow.com/users/2254097/harshit"
+
+  [[params.social]]
+    name = "dev"
+    url  = "https://dev.to/hpj1992"  
+
+  [[params.social]]
+    name = "medium"
+    url  = "https://joshiharshit.medium.com/"
+
+  [[params.social]]
+    name = "unsplash"
+    url  = "https://unsplash.com/@hpj1992"    
 
 [languages]
   [languages.en]
@@ -114,36 +152,6 @@ disableHugoGeneratorInject = false
     #
     # path = "/img/your-example-logo.svg"
     # alt = "Your example logo alt text"
-
-    # Social icons
-
-  [[languages.en.params.social]]
-    name = "email"
-    url  = "mailto:hpj1992@gmail.com"
-
-  [[languages.en.params.social]]
-    name = "github"
-    url  = "https://github.com/hpj1992"
-
-  [[languages.en.params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/in/harshitjoshi1/"
-
-  [[languages.en.params.social]]
-    name = "stackoverflow"
-    url  = "https://stackoverflow.com/users/2254097/harshit"
-
-  [[languages.en.params.social]]
-    name = "dev"
-    url  = "https://dev.to/hpj1992"  
-
-  [[languages.en.params.social]]
-    name = "medium"
-    url  = "https://joshiharshit.medium.com/"
-
-  [[languages.en.params.social]]
-    name = "unsplash"
-    url  = "https://unsplash.com/@hpj1992"  
     
 
 	# You can create a language based menu
@@ -162,8 +170,8 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "about"
     name       = "About"
-    url        = "/about"
+    url        = "about/"
   [[menu.main]]
     identifier = "blog"
     name       = "Blog"
-    url        = "/posts"
+    url        = "posts/"

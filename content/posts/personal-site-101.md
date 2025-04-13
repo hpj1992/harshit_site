@@ -1,16 +1,13 @@
----
-author:
-  name: "Harshit Joshi"
-date: 2019-11-03
-linktitle: Personal Website 101
-type:
-- post
-- posts
-title: Personal Website 101
-weight: 10
-series:
-- Hugo 101
----
++++
+date = "2019-11-03"
+linktitle = "Personal Website 101"
+type = ["post", "posts"]
+title = "Personal Website 101"
+weight = "10"
+series = ["Hugo"]
+[ author ]
+  name = "Harshit Joshi"
++++
 
 ### Motivation
 There is no need to explain the benefits of personal website or a porfolio site, still, I would note down some:
