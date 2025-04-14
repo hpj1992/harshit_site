@@ -11,7 +11,7 @@ PygmentsStyle = "monokai"
 rssLimit  = 15  # Maximum number of items in the RSS feed.
 copyright = "License Message" # This message is only used by the RSS template.
 
-googleAnalytics = "UA-153672714-1"
+googleAnalytics = "G-T6EYX1WEB9"
 disqusShortname = "joshiharshit-com"
 
 archetypeDir = "archetypes"
