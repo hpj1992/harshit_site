@@ -106,10 +106,6 @@ disableHugoGeneratorInject = false
     bottomText = ["A year from now, you will wish you had started today. </br><a href=\"https://t.co/Wor3sMJ3DQ?amp=1\">A Reason To Stop Worrying &#10084;</a>"]
 
   [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
-
-  [[params.social]]
     name = "email"
     url  = "mailto:hpj1992@gmail.com"
 
