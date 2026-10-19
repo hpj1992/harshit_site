@@ -97,7 +97,7 @@ disableHugoGeneratorInject = false
   customJS  = []
   
   [params.footer]
-    trademark = 2025
+    trademark = 2026
     rss = true
     copyright = true
     author = true
@@ -107,7 +107,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "email"
-    url  = "mailto:hpj1992@gmail.com"
+    url  = "mailto:harshitjoshi.inbox@gmail.com"
 
   [[params.social]]
     name = "github"
